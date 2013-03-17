@@ -1,0 +1,9 @@
+#
+cc -o bin/del_rest del_rest.c
+cc -o bin/dshortn  dshortn.c
+cc -o bin/makeidx makeidx.c
+cc -o bin/maknmidx maknmidx.c
+cc -o bin/makwdidx makwdidx.c
+cc -o bin/toknums toknums.c
+cc -o bin/tolostd tolostd.c
+cc -o bin/tolower tolower.c
