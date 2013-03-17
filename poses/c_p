@@ -1,0 +1,3 @@
+#
+cc -o ~/public_html/cgi-bin/poses.cgi poses.c
+

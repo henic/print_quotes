@@ -1,0 +1,10 @@
+#
+~/Sources/bin/toknums anecdots.txt an.wrd
+~/Sources/bin/dshortn an.wrd an.wd 3
+~/Sources/bin/tolostd an.wd >an.wrd
+rm -f an.wd
+sort -k 1,1 -o an.srt an.wrd
+rm -f an.wrd
+~/Sources/bin/del_rest an.srt anecdots.wnm
+rm -f an.srt
+~/Sources/bin/maknmidx anecdots
